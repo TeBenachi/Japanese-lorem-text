@@ -9,6 +9,7 @@ module.exports = {
 		'./includes/*.php',
 		'./src/**/*.html',
 		'./src/**/*.php',
+		'./src/*.js',
 		'./src/**/*.js',
 	],
 	darkMode: false, // or 'media' or 'class'
