@@ -1,4 +1,4 @@
-***Creating Dev Environment
+**Creating Dev Environment
 
 This wordpress plugin uses the following tools
 * [WordPress Plugin Boilerplate Generater](https://wppb.me/)
@@ -9,9 +9,13 @@ This wordpress plugin uses the following tools
 npm init -y
 ```
 
+
+
 ```
 npm install laravel-mix --save-dev
 ```
+
+
 
 ```
 touch webpack.mix.js && open webpack.mix.js
