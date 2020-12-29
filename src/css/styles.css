@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,
+}
+
+h1 {
+    @apply text-2xl
+}
+
+
+
+@tailwind utilities;

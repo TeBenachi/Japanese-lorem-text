@@ -1,0 +1,26 @@
+{
+  "name": "japanese-lorem-text",
+  "version": "1.0.0",
+  "description": "=== Plugin Name === Contributors: (this should be a list of wordpress.org userid's) Donate link: https://profiles.wordpress.org/utz119/ Tags: comments, spam Requires at least: 3.0.1 Tested up to: 3.4 Stable tag: 4.3 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix --hot",
+    "prod": "mix --production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-react": "^7.12.10",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
+    "laravel-mix": "^6.0.5",
+    "postcss": "^8.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  }
+}
