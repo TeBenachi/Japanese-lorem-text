@@ -52,11 +52,38 @@ npm i @babel/preset-react
 **Installing TailWindCss**
 
 ```
-npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat @tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+npm install tailwindcss@latest postcss@latest autoprefixer@latest
 ```
 
 ```
 npx tailwindcss init
+```
+
+**Update tailwind.config.js
+
+```
+module.exports = {
+	purge: [
+		'./*.php',
+		'./*.js',
+		'./*.html',
+		'./admin/*.php',
+		'./admin/**/*.php',
+		'./admin/**/*.js',
+		'./includes/*.php',
+		'./src/**/*.html',
+		'./src/**/*.php',
+		'./src/**/*.js',
+	],
+	darkMode: false, // or 'media' or 'class'
+	theme: {
+		extend: {},
+	},
+	variants: {
+		extend: {},
+	},
+	plugins: [],
+};
 ```
 
 ```
@@ -72,4 +99,15 @@ module.exports = {
         autoprefixer: {},
     },
 };
+```
+
+To run development
+```
+npm run dev
+```
+
+For production. (Purge TailwindCSS, Minified JS)
+
+```
+npm run prod
 ```
