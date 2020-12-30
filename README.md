@@ -1,4 +1,4 @@
-**Creating Dev Environment
+## Creating Dev Environment
 
 This wordpress plugin uses the following tools
 * [WordPress Plugin Boilerplate Generater](https://wppb.me/)
@@ -72,7 +72,7 @@ npm install tailwindcss@latest postcss@latest autoprefixer@latest
 npx tailwindcss init
 ```
 
-**Update tailwind.config.js
+**Update tailwind.config.js**
 
 ```
 module.exports = {
@@ -139,7 +139,7 @@ npm install @wordpress/element —save
 
 
 
-###Workflow
+### Workflow
 ```
 npm run dev
 ```
