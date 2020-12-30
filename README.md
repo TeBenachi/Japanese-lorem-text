@@ -113,8 +113,33 @@ module.exports = {
     },
 };
 ```
+```
+npm i babel-plugin-transform-react-jsx
+```
 
-To run development
+```
+npm install @wordpress/element —save
+```
+
+```
+{
+    "plugins": [
+        [ 
+            "transform-react-jsx", {
+                "pragma": "wp.element.createElement",
+                "pragmaFrag": "wp.element.Fragment"    
+            } 
+        ]
+    ]
+}
+```
+
+
+
+
+
+
+###Workflow
 ```
 npm run dev
 ```
